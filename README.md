@@ -16,7 +16,15 @@ This tutorial does the following in AWS:
 
 Arduino IDE
 
-You need to install this library: https://github.com/256dpi/arduino-mqtt
+Install the Arduino core for ESP32 WiFi chip. 
+To do this in Arduino go to Preferences window. 
+Enter https://dl.espressif.com/dl/package_esp32_index.json into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
+Open Boards Manager from Tools > Board menu and install esp32 platform (and don't forget to select your ESP32 board from Tools > Board menu after installation).
+
+(More details here https://github.com/espressif/arduino-esp32) 
+
+
+You also need to install this library: https://github.com/256dpi/arduino-mqtt
 
 Set the following parameters in aws.ino
 
