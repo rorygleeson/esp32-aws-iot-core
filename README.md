@@ -33,8 +33,11 @@ const char *pass = "your wifi password";
 
 const char *awsEndPoint = xxxxxxxxxxxxx-ats.iot.us-west-2.amazonaws.com";		// get from AWS IoT Core, in Things\thing name\Interact and copy HTTPS link
 
+
 const char *subscribeTopic = "intopic"; 	// set to any topic name. This is the topic the device will listen to
+
 const char *publishTopic = "outtopic";		// set to any topic name. This is the topic the device will upload data to
+
 
 Also in aws.ino, update the rootCABuff certificateBuff privateKeyBuff array variables with the Root CA (cert), certificate.pem.crt (cert) and private.pem.key downloaded in part 3. (Note, make sure to have "/n"'s in correct format). 
 
