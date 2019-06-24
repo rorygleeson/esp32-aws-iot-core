@@ -6,9 +6,9 @@ This tutorial does the following in AWS:
 
 2 Create a thing in IoT Core
 
-3 Generate cerficates and keys for the thing and download
+3 Generate cerficates and keys for the thing and download, activate certificate
 
-4 Define a policy for the IoT device, and attach the certifcates
+4 Define a policy for the IoT device, and attach the policy to the certifcates
 
 5 Test setup using MQTT
 
